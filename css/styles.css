@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f8f8;
+    background-color: #fafafa;
 }
 
 h2 {
@@ -198,4 +198,10 @@ nav.main-nav .nav-link {
 
 .appointment .btn-primary:hover {
     background-color: #68bebc;
+}
+
+/*Footer*/
+.site-footer p.copyright {
+    font-family: 'Lato', sans-serif;
+    color: #979797;
 }
