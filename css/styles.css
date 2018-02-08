@@ -31,6 +31,43 @@ h2 span, h3 span {
     color: #e082a8;
 }
 
+/*Social Menu*/
+.socials ul {
+    list-style: none;
+}
+
+.socials ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.socials ul li a::before {
+    font-family: FontAwesome;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0.5rem;
+    content: '\f08e';
+    color: #e082a8;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+}
+
+.socials ul li a[href*="facebook.com"]::before {
+    content: '\f082';
+}
+.socials ul li a[href*="twitter.com"]::before {
+    content: '\f081';
+}
+.socials ul li a[href*="instagram.com"]::before {
+    content: '\f16d';
+}
+.socials ul li a[href*="printerest.com"]::before {
+    content: '\f0d2';
+}
+.socials ul li a[href*="youtube.com"]::before {
+    content: '\f16a';
+}
+
 /*Navigation*/
 .navigation {
     background-color: #8ed3cc;
