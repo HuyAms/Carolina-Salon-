@@ -101,3 +101,37 @@ nav.main-nav .nav-link {
 .image-info .btn-success:hover {
     background-color: #ca5b88;
 }
+
+/*Hours*/
+.business-hours {
+    background-color: #8ed3cc;
+    color: white;
+}
+
+.business-hours h2 {
+    color: white;
+}
+.bg-hours {
+    background-image: url(../img/bg_hours.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+}
+
+.table {
+    border: 2px solid #e082a8;
+}
+
+.table td,
+.table thead th {
+    border: none;
+}
+
+.table tbody tr td {
+    padding: .35rem;
+}
+
+.table-danger,
+.table-hover table-danger:hover {
+    background-color: #e082a8;
+}
